@@ -147,7 +147,7 @@ li:hover{
 /****STYLING THE ABOUT SECTION*****/
 .about-section{
   width: 100%;
-  padding: 50px 20px;
+  padding: 150px 20px;
   text-align: center;
   line-height: 35px;
 }
@@ -163,7 +163,7 @@ li:hover{
   background: #FAF9F6;
   width: 100%;
   text-align: center;
-  padding: 40px 20px 0 20px;
+  padding: 160px 20px;
 
 }
 .services-container > h1{
@@ -209,7 +209,7 @@ li:hover{
 }
 /***** styling the Book Section *****/
 .book-flex{
-  padding: 40px;
+  padding: 100px 40px;
   display: flex;
   column-gap: 40px;
 }
@@ -550,6 +550,19 @@ color: black;
 }
 
 @media(max-width: 480px){
+  /**** the sbout container ****/
+  .about-section{
+    padding: 60px 20px;
+    
+  }
+  /***** the services section ******/
+  .services-container{
+    padding: 60px 20px;
+  }
+  /****** the about-flex *****/
+  .book-flex{
+    padding: 40px;
+  }
 /*** STYLING THE FOOTER ****/
   .footer {
     width: 100%;

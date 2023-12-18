@@ -5,8 +5,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import Picture1 from '/images/spa1.jpeg';
-import Picture2 from '/images/spa11.avif'
-import Picture3  from '/images/spa13.avif';
+import Picture2 from '/images/spa-slider32.webp'
+import Picture3  from '/images/spa-slider22.webp';
 
 
 
