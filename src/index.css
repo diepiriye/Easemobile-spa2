@@ -199,14 +199,19 @@ li:hover{
   border-radius: 12px;
   object-fit: cover;
   object-position: center;
-  box-shadow: 2px 2px 0 0 rgba(0,0,0,.2);
+  //box-shadow: 2px 2px 0 0 rgba(0,0,0,.2);
+}
+.services-writeup{
+  text-align: left;
 }
 .services-writeup > h2{
     font-size: 30px;
 }
 .services-writeup > p{
   font-size: 20px;
+  line-height: 26px;
 }
+
 /***** styling the Book Section *****/
 .book-flex{
   padding: 100px 40px;
@@ -553,11 +558,20 @@ color: black;
   /**** the sbout container ****/
   .about-section{
     padding: 60px 20px;
-    
+    text-align: unset;
+  }
+  .about-section >h1{
+    //background: red;
+    max-width: 300px; 
+    margin: 0 auto 20px auto; 
   }
   /***** the services section ******/
   .services-container{
-    padding: 60px 20px;
+    padding: 60px 10px;
+    
+  }
+  .sub-service{
+    padding: 0 0px;
   }
   /****** the about-flex *****/
   .book-flex{
