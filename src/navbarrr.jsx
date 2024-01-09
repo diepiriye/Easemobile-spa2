@@ -49,8 +49,12 @@ export default function Navbar(props) {
           <li><a href="#contact" onClick={() => NavigateTo(contactRef, "contact")} className={activeItem === "contact" ? "active" : ""}>Contact</a></li>
         </ul>
         <h2 className="close" onClick={close}><i className="fa-solid fa-xmark"></i></h2>
+        <div className={`book-now2 ${activeItem === "booknow" ? "active" : ""}`}>
+          <h1><a href="#booknow" onClick={() => NavigateTo(bookRef, "booknow")}>BOOK NOW</a></h1>
+        </div>
       </div>
       <h2 className="toggle" onClick={handbugger}><i className="fa-solid fa-bars"></i></h2>
+
     </div>
   );
 }

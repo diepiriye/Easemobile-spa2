@@ -91,6 +91,9 @@ li:hover{
 .book-now.active a{
   color: blue;
 }
+.book-now2{
+  display: none;
+}
 
 /**** STYLING THE SLIDER ****/
 .picture-container{
@@ -483,6 +486,20 @@ color: black;
     border-radius: 20px;
     color: white;
   }
+  .book-now2{
+    display: block;
+    width: 220px;
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 10px 0;
+  }
+  .book-now2 a{
+    text-decoration: none;
+    color: brown;
+  }
+  .book-now2.active a{
+    color: blue;
+  }
   .toggle{
     display: block;
     margin-right: 20px;
@@ -533,12 +550,12 @@ color: black;
   }
 }
 @media(max-width: 550px){
-  .navbar{
+  /*.navbar{
     flex-direction: column;
     align-items: flex-start;
-  }
+  }*/
   .book-now{
-    margin: 0 0 0 125px;
+    display: none;
   }
   .toggle{
     display: block;
@@ -552,6 +569,9 @@ color: black;
   .book-now{
     margin: 0 0 0 100px;
   }
+  .toggle{
+    margin-right: 10px;
+  }
 }
 
 @media(max-width: 480px){
@@ -561,7 +581,6 @@ color: black;
     text-align: unset;
   }
   .about-section >h1{
-    //background: red;
     max-width: 300px; 
     margin: 0 auto 20px auto; 
   }
@@ -608,6 +627,11 @@ color: black;
     to{
       width: 290px;
     }
+  }
+}
+@media(max-width: 390px){
+  .logo{
+    margin: 0 50px 0 20px;
   }
 }
 @media(max-width: 360px){
